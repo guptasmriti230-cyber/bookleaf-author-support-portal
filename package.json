@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "name": "bookleaf-author-support-portal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "nanoid": "^6.0.2"
+  }
+}
